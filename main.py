@@ -13,7 +13,7 @@ class Qrcodedetector(MDApp):
 
     def build(self):
         self.theme_cls.theme_style = 'Dark'
-        self.theme_cls.primary_palette = 'Yellow '
+        self.theme_cls.primary_palette = 'Yellow'
         layout = MDBoxLayout(orientation='vertical')
         self.image = Image()
         layout.add_widget(self.image)
